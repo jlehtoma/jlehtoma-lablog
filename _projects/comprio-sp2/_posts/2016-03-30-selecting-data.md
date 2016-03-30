@@ -6,3 +6,68 @@ tags:
  - comprio-sp2
  - data
 ---
+
+## Potential datasets
+
+See [potential datasets for SP2](https://docs.google.com/spreadsheets/d/1niV9Oe8pavgskiq0ibMzPt6F_oJU3uTD3R2pY7RwyDU/edit?usp=sharing). For further details and literature reference, see [this catalog](https://docs.google.com/spreadsheets/d/1NblQP0IGxXDUOXgqhzp03acPUMc2XJ6u_vPgWHC8OMk/edit?usp=sharing).
+
+----
+
+|  **ID** | **Category** | **Dataset** | **Description** |
+|  ------ | ------ | ------ | ------ |
+|  1 | BD | [Agro biodiversity](#agro-biodiversity) | Species richness of farmland vertebrates and plants |
+|  2 | BD | [Farmland birds](#farmland-birds) | Farmland bird species richness |
+|  3 | BD | European vertebrate species | In particular, we considered the entire European sub-continent plus Turkey and a total of 1149 species of terrestrial vertebrates. For each species, we developed species-specific expert-based distribution models (validated against field data) which we used to calculate species richness maps for mammals, breeding birds, amphibians, and reptiles. Considering |
+|  4 | ES | Megafauna habitat | Habitat suitability for megafauna (7 species) |
+|  5 | ES | Climate regulation | Response of terrestrial carbon balance to land use change scenarios |
+|  6 | ES | Erosion prevention | Protection of land cover against erosion in erosion prone areas |
+|  7 | ES | Flood regulation | Water retention capacity (supply and demand) |
+|  8 | ES | Heritage: agriculutural landscapes | Landscape characterization based on the three dimensions of cultural landscape |
+|  9 | ES | Heritage: forest landscapes | Landscape characterization based on the three dimensions of cultural landscape |
+|  10 | ES | Pollination visitation probability | Pollinator visitation probability (supply) and cropland dependency on pollinators (demand) |
+|  11 | ES | Pollination flows | Unmanaged pollinators that live in suitable natural and semi-natural habitats provide pollination services especially to near croplands. Benefiting areas depend on pollination service flows from neighboring habitats, due to a segregation between cropland and habitat |
+|  12 | ES | Tourism | Supply of assets for tourism supported by ecosystems |
+|  13 | ES | Wild food provisioning | Species richness of wild edible plants, mushrooms and game (supply) and demand of wild food |
+|  14 | ES | Wood production | High-resolution wood production maps for European forests (average 2000-2010) |
+
+----
+
+### Biodiversity features
+
+#### 1. Agro biodiversity
+
+
+#### 2. Farmland birds
+
+#### 3. European vertebrate species
+
+### Ecosystem service features
+
+#### 4. Megafauna
+
++ Data on the species components that were used to construct the layer (birds
+  and mammals) is available, but this is too coarse (50x50km). Also, these
+  composite layers don't contain information per species.
+
++ **Conclusion:** Megafauna index layer (this one's in 1x1 km resolution) could
+  be used as a ES, but not BD feature.
+
+#### 5. Climate regulation
+
+#### 6. Erosion prevention
+
+#### 7. Flood regulation
+
+#### 8. Heritage: agriculutural landscapes
+
+#### 9. Heritage: forest landscapes
+
+#### 10. Pollination visitation probability
+
+#### 11. Pollination flows
+
+#### 12. Tourism
+
+#### 13. Wild food provisioning
+
+#### 14. Wood production
