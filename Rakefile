@@ -18,12 +18,12 @@ namespace :site do
   desc "Run Jekyll server with production config"
   task :run => [:generate] do
     puts "Rakefile: Running Jekyll server with a production configuration."
-    system "jekyll serve --watch --config _production_config.yml,_config.yml"
+    system "jekyll serve --watch --config _config.yml,_production_config.yml"
   end
 
   desc "Run Jekyll server with development config"
   task :run_dev => [:generate] do
     puts "Rakefile: Running Jekyll server with a development configuration."
-    system "jekyll serve --watch --config _development_config.yml,_config.yml"
+    system "jekyll serve --watch --config _config.yml,_development_config.yml"
   end
 end
