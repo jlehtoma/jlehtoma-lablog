@@ -6,6 +6,6 @@ should be concise due to the limited space.
 
 It is perfect to add external links or Collections of relevant material.
 
-# Project one
+# Data resources
 
-[lablog on Github](https://fdschneider.github.io/jekyll-lablog)
+[Data catalog](https://docs.google.com/spreadsheets/d/1NblQP0IGxXDUOXgqhzp03acPUMc2XJ6u_vPgWHC8OMk/edit?usp=sharing)
