@@ -67,10 +67,7 @@ ul, ol {
 }
 
 li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
+         padding-bottom: 10px;
 }
 
 
@@ -79,6 +76,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
     font-weight: 300;
 }
 
@@ -150,7 +148,20 @@ pre {
     }
 }
 
+/**
+ * Tables
+ */
 
+th {
+  font-size: 14px;
+  text-align: left;
+}
+
+td {
+  font-size: 12px;
+  margin-bottom: 20px;
+  padding: 4px 4px;
+}
 
 /**
  * Wrapper
