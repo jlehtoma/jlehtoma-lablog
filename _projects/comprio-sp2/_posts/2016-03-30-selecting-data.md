@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Selecting data"
+title: "Selecting and pre-processing data"
 date: "2016-03-30"
+updated: "2016-04-05"
 tags:
  - comprio-sp2
  - data
@@ -9,7 +10,9 @@ tags:
 
 ## Potential datasets
 
-See [potential datasets for SP2](https://docs.google.com/spreadsheets/d/1niV9Oe8pavgskiq0ibMzPt6F_oJU3uTD3R2pY7RwyDU/edit?usp=sharing). For further details and literature reference, see [this catalog](https://docs.google.com/spreadsheets/d/1NblQP0IGxXDUOXgqhzp03acPUMc2XJ6u_vPgWHC8OMk/edit?usp=sharing).
+See [potential datasets for SP2](https://docs.google.com/spreadsheets/d/1niV9Oe8pavgskiq0ibMzPt6F_oJU3uTD3R2pY7RwyDU/edit?usp=sharing). For further details and literature reference, see [this catalog](https://docs.google.com/spreadsheets/d/1NblQP0IGxXDUOXgqhzp03acPUMc2XJ6u_vPgWHC8OMk/edit?usp=sharing). This page describes the rationale for selecting datasets for the project "Comparing spatial prioritization methods for biodiversity conservation and ecosystem services" (SP2) and the pre-processing steps needed to prepare the data for the analysis.
+
+Sheet `table_1_work` in the planning [Google Sheet](https://docs.google.com/spreadsheets/d/1niV9Oe8pavgskiq0ibMzPt6F_oJU3uTD3R2pY7RwyDU/edit?usp=sharing) includes information on the 1) extent and 2) resolution of all the potential datasets. At later stage, all the data needs to be translated into the same extent and resolution (see also [this Trello card](https://trello.com/c/aNFSPfhi)).
 
 ----
 
