@@ -43,8 +43,11 @@ Sheet `table_1_work` in the planning [Google Sheet](https://docs.google.com/spre
   + Year = 2000
   + Scenario = A1
 + Add [Snake make rules](https://github.com/VUEG/data-EG/blob/master/farmland_birds/Snakefile) and [scripts](https://github.com/VUEG/data-EG/tree/master/farmland_birds/scripts) for translating all the birds species data from AIG (ArcInfo Grids) to GeoTIFF using `gdal_translate`.
++ Check the extent of all translated rasters using [farmland_birds/scripts/check_extents.py](https://github.com/VUEG/data-EG/blob/master/farmland_birds/scripts/check_extents.py). **Result:** all extents match.
 
 #### 2. European vertebrate species
+
++ Data use pending on Rome.
 
 ### Ecosystem service features
 
