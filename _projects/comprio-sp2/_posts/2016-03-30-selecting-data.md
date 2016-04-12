@@ -2,7 +2,7 @@
 layout: post
 title: "Selecting and pre-processing data"
 date: "2016-03-30"
-updated: "2016-04-05"
+updated: "2016-04-12"
 tags:
  - comprio-sp2
  - data
@@ -55,7 +55,7 @@ Sheet `table_1_work` in the planning [Google Sheet](https://docs.google.com/spre
 
 + Data on the species components that were used to construct the layer (birds and mammals) is available, but this is too coarse (50x50km). Also, these composite layers don't contain information per species.
 
-+ **Conclusion:** Megafauna index layer (this one's in 1x1 km resolution) could be used as a ES, but not BD feature.
++ **Conclusion:** Used as a ES feature.
 
 #### 4. Agro biodiversity
 
@@ -65,24 +65,45 @@ Sheet `table_1_work` in the planning [Google Sheet](https://docs.google.com/spre
 
 + See [card in Trello](https://trello.com/c/jgSndp4C).
 
-+ **Conclusion:** Can't be used as biodiversity feature, unless theres access to the underlying species maps (which are pretty coarse as well). Could be used as an ES feature.
++ **Conclusion:** Can't be used as biodiversity feature, unless theres access to the underlying species maps (which are pretty coarse as well). Used as an ES feature.
 
 #### 5. Climate regulation
 
++ **Conclusion:** Used as an ES feature.
+
 #### 6. Erosion prevention
+
++ **Conclusion:** Used as an ES feature.
 
 #### 7. Flood regulation
 
++ **Conclusion:** Used as an ES feature.
+
 #### 8. Heritage: agriculutural landscapes
+
++ **Conclusion:** Used as an ES feature.
 
 #### 9. Heritage: forest landscapes
 
++ **Conclusion:** Used as an ES feature.
+
 #### 10. Pollination visitation probability
+
++ Pollination flows more suitable, as it also (kind of) includes the demand for pollination.
++ **Conclusion:** Not used.
 
 #### 11. Pollination flows
 
++ **Conclusion:** Used as an ES feature.
+
 #### 12. Tourism
+
++ **Conclusion:** Used as an ES feature.
 
 #### 13. Wild food provisioning
 
++ **Conclusion:** Used as an ES feature.
+
 #### 14. Wood production
+
++ **Conclusion:** Average 2000-2010 used as an ES feature.
