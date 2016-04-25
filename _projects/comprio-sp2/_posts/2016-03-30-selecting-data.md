@@ -85,7 +85,9 @@ Sheet `table_1_work` in the planning [Google Sheet](https://docs.google.com/spre
 
 #### 7. Flood regulation
 
-+ **Conclusion:** Used as an ES feature.
++ Not clear what's the difference between `flood_regulation` and `flood_regulation_supply`
+
++ **Conclusion:** `flood_regulation` used as an ES feature.
 
 #### 8. Heritage: agriculutural landscapes
 
