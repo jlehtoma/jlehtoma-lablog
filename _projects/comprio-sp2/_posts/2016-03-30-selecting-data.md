@@ -60,8 +60,8 @@ Sheet `table_1_work` in the planning [Google Sheet](https://docs.google.com/spre
 + Data on the species components that were used to construct the layer (birds and mammals) is available, but this is too coarse (50x50km). Also, these composite layers don't contain information per species.
 
 + **Question**: how much is there overalp with `Agro biodiversity`, `Farmland birds`, `European vertebrate species` (See [card in Trello](https://trello.com/c/jgSndp4C).)?
-
 + **Conclusion:** Used as a ES feature.
++ **Resource:** `megafauna.tif`
 
 #### 4. Agro biodiversity
 
@@ -74,28 +74,34 @@ Sheet `table_1_work` in the planning [Google Sheet](https://docs.google.com/spre
 + **Question**: how much is there overalp with `Megafauna` and `European vertebrate species` (See [card in Trello](https://trello.com/c/jgSndp4C).)?
 
 + **Conclusion:** Can't be used as biodiversity feature, unless theres access to the underlying species maps (which are pretty coarse as well). Used as an ES feature.
++ **Resource:** `agrobiodiversity_species_richness.tif`
 
 #### 5. Climate regulation
 
 + **Conclusion:** Used as an ES feature.
++ **Resource:** `carbon_sequestration.tif`
 
 #### 6. Erosion prevention
 
 + **Conclusion:** Used as an ES feature.
++ **Resource:** `erosion_prevention.tif`
 
 #### 7. Flood regulation
 
 + Not clear what's the difference between `flood_regulation` and `flood_regulation_supply`
 
 + **Conclusion:** `flood_regulation` used as an ES feature.
++ **Resource:** `floodregulation.tif`
 
 #### 8. Heritage: agriculutural landscapes
 
 + **Conclusion:** Used as an ES feature.
++ **Resource:** `cultural_landscape_index_agro.tif`
 
 #### 9. Heritage: forest landscapes
 
 + **Conclusion:** Used as an ES feature.
++ **Resource:** `cultural_landscape_index_forest.tif`
 
 #### 10. Pollination visitation probability
 
@@ -105,15 +111,19 @@ Sheet `table_1_work` in the planning [Google Sheet](https://docs.google.com/spre
 #### 11. Pollination flows
 
 + **Conclusion:** Used as an ES feature.
++ **Resource:** `pollination_flows.tif`
 
 #### 12. Tourism
 
 + **Conclusion:** Used as an ES feature.
++ **Resource:** `nature_tourism.tif`
 
 #### 13. Wild food provisioning
 
 + **Conclusion:** Used as an ES feature.
++ **Resource:** `species_richness_vascular_plants.tif`
 
 #### 14. Wood production
 
 + **Conclusion:** Average 2000-2010 used as an ES feature.
++ **Resource:** `woodprod_average.tif`
