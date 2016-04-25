@@ -23,15 +23,15 @@ Sheet `table_1_work` in the planning [Google Sheet](https://docs.google.com/spre
 |  3 | ES | [Megafauna habitat](#megafauna) | Habitat suitability for megafauna (7 species) |
 |  4 | BD | [Agro biodiversity](#agro-biodiversity) | Species richness of farmland vertebrates and plants |
 |  5 | ES | [Climate regulation](#climate-regulation) | Response of terrestrial carbon balance to land use change scenarios |
-|  6 | ES | Erosion prevention | Protection of land cover against erosion in erosion prone areas |
-|  7 | ES | Flood regulation | Water retention capacity (supply and demand) |
-|  8 | ES | Heritage: agriculutural landscapes | Landscape characterization based on the three dimensions of cultural landscape |
-|  9 | ES | Heritage: forest landscapes | Landscape characterization based on the three dimensions of cultural landscape |
-|  10 | ES | Pollination visitation probability | Pollinator visitation probability (supply) and cropland dependency on pollinators (demand) |
-|  11 | ES | Pollination flows | Unmanaged pollinators that live in suitable natural and semi-natural habitats provide pollination services especially to near croplands. Benefiting areas depend on pollination service flows from neighboring habitats, due to a segregation between cropland and habitat |
-|  12 | ES | Tourism | Supply of assets for tourism supported by ecosystems |
-|  13 | ES | Wild food provisioning | Species richness of wild edible plants, mushrooms and game (supply) and demand of wild food |
-|  14 | ES | Wood production | High-resolution wood production maps for European forests (average 2000-2010) |
+|  6 | ES | [Erosion prevention](#erosion-prevention) | Protection of land cover against erosion in erosion prone areas |
+|  7 | ES | [Flood regulation](#flood-regulation) | Water retention capacity (supply and demand) |
+|  8 | ES | [Heritage: agricultural landscapes](#heritage-agricultural-landscapes) | Landscape characterization based on the three dimensions of cultural landscape |
+|  9 | ES | [Heritage: forest landscapes](#heritage-forest-landscapes) | Landscape characterization based on the three dimensions of cultural landscape |
+|  10 | ES | [Pollination visitation probability](#pollination-visitation-probability) | Pollinator visitation probability (supply) and cropland dependency on pollinators (demand) |
+|  11 | ES | [Pollination flows](#pollination-flows) | Unmanaged pollinators that live in suitable natural and semi-natural habitats provide pollination services especially to near croplands. Benefiting areas depend on pollination service flows from neighboring habitats, due to a segregation between cropland and habitat |
+|  12 | ES | [Tourism](#tourism) | Supply of assets for tourism supported by ecosystems |
+|  13 | ES | [Wild food provisioning](#wild-food-provisioning) | Species richness of wild edible plants, mushrooms and game (supply) and demand of wild food |
+|  14 | ES | [Wood production](#wood-production) | High-resolution wood production maps for European forests (average 2000-2010) |
 
 ----
 
