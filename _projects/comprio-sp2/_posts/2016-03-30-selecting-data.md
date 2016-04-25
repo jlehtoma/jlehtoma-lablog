@@ -45,15 +45,21 @@ Sheet `table_1_work` in the planning [Google Sheet](https://docs.google.com/spre
 + Add [Snake make rules](https://github.com/VUEG/data-EG/blob/master/farmland_birds/Snakefile) and [scripts](https://github.com/VUEG/data-EG/tree/master/farmland_birds/scripts) for translating all the birds species data from AIG (ArcInfo Grids) to GeoTIFF using `gdal_translate`.
 + Check the extent of all translated rasters using [farmland_birds/scripts/check_extents.py](https://github.com/VUEG/data-EG/blob/master/farmland_birds/scripts/check_extents.py). **Result:** all extents match.
 
++ **Question**: how much is there overalp with `Megafauna`, `European vertebrate species` and `Agro biodiversity` (See [card in Trello](https://trello.com/c/jgSndp4C).)?
+
 #### 2. European vertebrate species
 
 + Data use pending on Rome.
+
++ **Question**: how much is there overalp with `Megafauna`, `Farmland birds` and `Agro biodiversity` (See [card in Trello](https://trello.com/c/jgSndp4C).)?
 
 ### Ecosystem service features
 
 #### 3. Megafauna
 
 + Data on the species components that were used to construct the layer (birds and mammals) is available, but this is too coarse (50x50km). Also, these composite layers don't contain information per species.
+
++ **Question**: how much is there overalp with `Agro biodiversity`, `Farmland birds`, `European vertebrate species` (See [card in Trello](https://trello.com/c/jgSndp4C).)?
 
 + **Conclusion:** Used as a ES feature.
 
@@ -64,6 +70,8 @@ Sheet `table_1_work` in the planning [Google Sheet](https://docs.google.com/spre
 ![Overmars-et-al-2014-fig-1](http://ars.els-cdn.com/content/image/1-s2.0-S1470160X1200386X-gr1.jpg)
 
 + See [card in Trello](https://trello.com/c/jgSndp4C).
+
++ **Question**: how much is there overalp with `Megafauna` and `European vertebrate species` (See [card in Trello](https://trello.com/c/jgSndp4C).)?
 
 + **Conclusion:** Can't be used as biodiversity feature, unless theres access to the underlying species maps (which are pretty coarse as well). Used as an ES feature.
 
