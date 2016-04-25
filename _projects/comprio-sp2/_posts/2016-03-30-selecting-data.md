@@ -2,7 +2,7 @@
 layout: post
 title: "Selecting and pre-processing data"
 date: "2016-03-30"
-updated: "2016-04-12"
+updated: "2016-04-25"
 tags:
  - comprio-sp2
  - data
@@ -20,9 +20,9 @@ Sheet `table_1_work` in the planning [Google Sheet](https://docs.google.com/spre
 |  ------ | ------ | ------ | ------ |
 |  1 | BD | [Farmland birds](#farmland-birds) | Farmland bird species richness |
 |  2 | BD | European vertebrate species | In particular, we considered the entire European sub-continent plus Turkey and a total of 1149 species of terrestrial vertebrates. For each species, we developed species-specific expert-based distribution models (validated against field data) which we used to calculate species richness maps for mammals, breeding birds, amphibians, and reptiles. Considering |
-|  3 | ES | Megafauna habitat | Habitat suitability for megafauna (7 species) |
+|  3 | ES | [Megafauna habitat](#megafauna) | Habitat suitability for megafauna (7 species) |
 |  4 | BD | [Agro biodiversity](#agro-biodiversity) | Species richness of farmland vertebrates and plants |
-|  5 | ES | Climate regulation | Response of terrestrial carbon balance to land use change scenarios |
+|  5 | ES | [Climate regulation](#climate-regulation) | Response of terrestrial carbon balance to land use change scenarios |
 |  6 | ES | Erosion prevention | Protection of land cover against erosion in erosion prone areas |
 |  7 | ES | Flood regulation | Water retention capacity (supply and demand) |
 |  8 | ES | Heritage: agriculutural landscapes | Landscape characterization based on the three dimensions of cultural landscape |
