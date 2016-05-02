@@ -4,7 +4,7 @@ title: "Selecting and pre-processing data"
 date: "2016-03-30"
 updated: "2016-04-25"
 tags:
- - comprio-sp2
+ - priocomp-sp2
  - data
 ---
 
