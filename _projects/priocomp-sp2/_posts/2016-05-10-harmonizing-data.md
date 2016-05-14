@@ -2,7 +2,7 @@
 layout: post
 title: "Harmonizing data"
 date: "2016-05-10"
-updated: "2016-05-13"
+updated: "2016-05-14"
 tags:
  - priocomp-sp2
  - data
@@ -43,7 +43,7 @@ Robust alternatives, such as:
 
 ![histo_before_rescaling](https://raw.githubusercontent.com/VUEG/priocomp/master/reports/figures/rescaled_rasters.png)
 
-## Implementation
+### Implementation
 
 + Project module [`src/data_processing/python/rescale.py`](https://github.com/VUEG/priocomp/blob/master/src/data_processing/python/rescale.py) implements different functions for rescaling.
   + **NOTE**: due to some issues with float precision, writing numpy.ndarray on disk using rasterio, and subsequently reading it will produce some loss in precision. Not sure how sever the problem is. values seems to be similar at least up to 4 decimal places.
@@ -55,3 +55,13 @@ Using normalization.
 
 ![histo_after_rescaling](https://raw.githubusercontent.com/VUEG/priocomp/master/reports/figures/harmonized_rasters.png)
 ![boxplot_after_rescaling](https://raw.githubusercontent.com/VUEG/priocomp/master/reports/figures/rescaled_rasters_boxplot.png)
+
+## 3. Data coverage
+
+While all datasets have been harmonized in section 1., they may still contain data from different regions (point 3 in section1). To see which datasets cover which countries, rule [`build_data_coverage`](https://github.com/VUEG/priocomp/blob/master/Snakefile#L114) is used to construct a raster in which the value of each cell gives the count of how many datasets have data in that cell. Results look like this:
+
+![data_coverage](https://raw.githubusercontent.com/VUEG/priocomp/master/reports/figures/data_coverage.png)
+
+EU28 countries without Croatia, Cyprus, and Malta are fairly well covered.
+
+**Conclusion:** Use EU28 countries without the afore mentioned countries.
