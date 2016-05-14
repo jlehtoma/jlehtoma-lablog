@@ -39,8 +39,19 @@ Robust alternatives, such as:
 
 + [Schulp et al. 2014](http://dx.plos.org/10.1371/journal.pone.0109643) used "[...] a min-max normalisation to cover the range [0,1] with 0 indicating the lowest value for an ES. The EV maps were computed using a linear combination of explaining variables, and therefore we assumed linearity for the normalization."
 
+### Data histograms before rescaling
+
+![histo_before_rescaling](https://raw.githubusercontent.com/VUEG/priocomp/master/reports/figures/rescaled_rasters.png)
+
 ## Implementation
 
 + Project module [`src/data_processing/python/rescale.py`](https://github.com/VUEG/priocomp/blob/master/src/data_processing/python/rescale.py) implements different functions for rescaling.
   + **NOTE**: due to some issues with float precision, writing numpy.ndarray on disk using rasterio, and subsequently reading it will produce some loss in precision. Not sure how sever the problem is. values seems to be similar at least up to 4 decimal places.
   + **NOTE**: values in rasters can also be negative, as with carbon sequestration. Therefore rescaling must be able to handle negative values.
+
+### Data histograms after rescaling
+
+Using normalization.
+
+![histo_after_rescaling](https://raw.githubusercontent.com/VUEG/priocomp/master/reports/figures/harmonized_rasters.png)
+![boxplot_after_rescaling](https://raw.githubusercontent.com/VUEG/priocomp/master/reports/figures/rescaled_rasters_boxplot.png)
