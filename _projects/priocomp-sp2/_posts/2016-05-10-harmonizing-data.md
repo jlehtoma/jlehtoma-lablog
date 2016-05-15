@@ -11,7 +11,7 @@ tags:
 ## 1. Data harmonization
 
 1. All [datasets used](../../../2016/03/30/selecting-data) - except European vertebrate species data and farmlands birds data - are downloaded from BeeHub by the [Snakemake rules](https://github.com/VUEG/priocomp/blob/master/Snakefile) in the [priocomp project](https://github.com/VUEG/priocomp).
-2. Following data download, all datasets are warped/translated into the same SRS and projection. The reference raster used is `provide/carbon_sequestration/carbon_sequestration.tif`. This file is used because it had the widest geographical extend and the correct SRS (EPSG:3035, ETRS-LAEA).
+2. Following data download, all datasets are warped/translated into the same SRS and projection. The reference raster used is `/data/external/datadryad/forest_production_europe/woodprod_average.tif`. This file is used because it a suitable geographical extent (~EU28) and the correct SRS (EPSG:3035, ETRS-LAEA).
 3. What still remains to be done is to check to contextual coverage of different datasets, i.e. which regions/countries actually have data in them.
 
 ## 2. Data normalization/standardization
