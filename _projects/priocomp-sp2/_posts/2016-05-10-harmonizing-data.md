@@ -14,7 +14,17 @@ tags:
 2. Following data download, all datasets are warped/translated into the same SRS and projection. The reference raster used is `/data/external/datadryad/forest_production_europe/woodprod_average.tif`. This file is used because it a suitable geographical extent (~EU28) and the correct SRS (EPSG:3035, ETRS-LAEA).
 3. What still remains to be done is to check to contextual coverage of different datasets, i.e. which regions/countries actually have data in them.
 
-## 2. Data normalization/standardization
+## 2. Data coverage
+
+While all datasets have been harmonized in section 1., they may still contain data from different regions (point 3 in section1). To see which datasets cover which countries, rule [`build_data_coverage`](https://github.com/VUEG/priocomp/blob/master/Snakefile#L114) is used to construct a raster in which the value of each cell gives the count of how many datasets have data in that cell. Results look like this:
+
+![data_coverage](https://raw.githubusercontent.com/VUEG/priocomp/master/reports/figures/data_coverage.png)
+
+Eurostat countries without Croatia, Cyprus, Iceland, Macedonia, Malta, Montenegro. Norway, Switzerland, and Turkey are fairly well covered.
+
+**Conclusion:** Use eurostat countries without the afore mentioned countries.
+
+## 3. Data normalization/standardization
 
 According to [here](http://www.dataminingblog.com/standardization-vs-normalization/), following definitions can be used:
 
@@ -41,7 +51,7 @@ Robust alternatives, such as:
 
 ### Data histograms before rescaling
 
-![histo_before_rescaling](https://raw.githubusercontent.com/VUEG/priocomp/master/reports/figures/rescaled_rasters.png)
+![histo_before_rescaling](https://raw.githubusercontent.com/VUEG/priocomp/master/reports/figures/harmonized_rasters_histogram.png)
 
 ### Implementation
 
@@ -53,15 +63,5 @@ Robust alternatives, such as:
 
 Using normalization.
 
-![histo_after_rescaling](https://raw.githubusercontent.com/VUEG/priocomp/master/reports/figures/harmonized_rasters.png)
-![boxplot_after_rescaling](https://raw.githubusercontent.com/VUEG/priocomp/master/reports/figures/rescaled_rasters_boxplot.png)
-
-## 3. Data coverage
-
-While all datasets have been harmonized in section 1., they may still contain data from different regions (point 3 in section1). To see which datasets cover which countries, rule [`build_data_coverage`](https://github.com/VUEG/priocomp/blob/master/Snakefile#L114) is used to construct a raster in which the value of each cell gives the count of how many datasets have data in that cell. Results look like this:
-
-![data_coverage](https://raw.githubusercontent.com/VUEG/priocomp/master/reports/figures/data_coverage.png)
-
-EU28 countries without Croatia, Cyprus, and Malta are fairly well covered.
-
-**Conclusion:** Use EU28 countries without the afore mentioned countries.
+![histo_after_rescaling](https://raw.githubusercontent.com/VUEG/priocomp/master/reports/figures/processed_rasters_histogram.png)
+![boxplot_after_rescaling](https://raw.githubusercontent.com/VUEG/priocomp/master/reports/figures/processed_rasters_boxplot.png)
